@@ -24,11 +24,15 @@
     - [ex-mode](#ex-mode)
     - [expose](#expose)
     - [file-icons](#file-icons)
+    - [tool-bar](#tool-bar)
 
 ## Syntax
 
 - [atom-jinja2](https://atom.io/packages/atom-jinja2)
 - [atom-json-color](https://atom.io/packages/atom-json-color)
+- [language-babel](https://atom.io/packages/language-babel)
+- [language-blade](https://atom.io/packages/language-blade)
+- 
 
 
 #### [atom-json-color](https://atom.io/packages/atom-json-color)
@@ -46,6 +50,8 @@ Without the plugin :(
 ![atom-json-color-without](https://cloud.githubusercontent.com/assets/8104134/13286516/37671a78-db02-11e5-9c0a-6e0a96130d14.png)
 
 ## Lint
+- [linter](https://atom.io/packages/linter)
+- [linter-eslint](https://atom.io/packages/linter-eslint)
 
 ## Themes
 
@@ -158,3 +164,78 @@ A number of icons and colours are provided by default for a range of common file
 If you have file that you would like custom icons for you can easily add this yourself.
 
 Icons are now specified via CSS (Less) only.
+
+#### [fold-functions](https://atom.io/packages/fold-functions)
+Folds functions within your code. Currently comes with a toggle, fold, and unfold option that will look for functions marked with 'meta.function'. Handy because it won't fold things like comments associated with functions.
+
+![screenshot](http://robballou.com/i/fold.gif)
+
+*Note: this currently folds only those functions it finds at a single indentation (e.g. it will fold the top level functions)*
+
+Heavily inspired/influnced by [Fold Comments](https://atom.io/packages/fold-comments).
+
+#### [atom-git-control](https://atom.io/packages/git-control)
+Provides a GUI interface to manage all commonly-used git commands.
+
+This is a first-release, while tested as part of creating this package, it has not been extensively used on much larger projects. In short: there are possibly still some issues remaining. At the same time, wanted to get the package out there and used.
+
+![Git](https://raw.githubusercontent.com/jacogr/atom-git-control/master/screenshots/git-01.png)
+
+#### [gitignore-snippets](https://github.com/github/gitignore)
+Quickly create .gitignore files with templates from [GitHub](https://github.com/github/gitignore).
+
+![demo](https://dl.dropboxusercontent.com/u/268400/gitignore-snippets.gif)
+
+#### [imdone-atom](https://atom.io/packages/imdone-atom)
+> 超華麗的 todo，支援拖拉喔
+
+A hackable task-board in your code.
+
+![gifrecord_2015-11-12_085528](https://cloud.githubusercontent.com/assets/233505/11121461/9899fb14-891b-11e5-8aba-a4646f8b1428.gif)
+
+#### [merge-conflicts](https://atom.io/packages/merge-conflicts)
+> merge conflicts 時最好用的工具。
+
+Resolve your git merge conflicts in Atom!
+
+![conflict-resolution](https://raw.github.com/smashwilson/merge-conflicts/master/docs/conflict-resolution.gif)
+
+This package detects the conflict markers left by `git merge` and overlays a set of controls for resolving each and navigating among them. Additionally, it displays your progress through a merge.
+
+#### [minimap](https://atom.io/packages/minimap)
+A preview of the full source code.
+
+![Minimap Screenshot](https://github.com/atom-minimap/minimap/blob/master/resources/screenshot.png?raw=true)
+<small>In the screenshot above the minimap-git-diff and minimap-highlight-selected plugins are activated.</small>
+
+> 以下是 minimap 的 plugins
+##### [minimap-autohide](https://atom.io/packages/minimap-autohide)
+This package automatically hides the minimap until you need it.
+
+When editing normally, you have the entire window for your editor. As soon as you begin to scroll, the minimap appears and you can interact with it normally.
+
+Written by @JayKuri - If you like it, say Hi!
+
+![Minimap autohide animated image](https://raw.githubusercontent.com/jayk/minimap-autohide/master/screenshot.gif)
+
+##### [minimap-cursorline](https://atom.io/packages/minimap-cursorline)
+Displays Atom cursorline in the minimap.
+
+![Minimap cursorline Screenshot](https://github.com/atom-minimap/minimap-cursorline/blob/master/screenshot.gif?raw=true)
+
+##### [minimap-linter](https://atom.io/packages/minimap-linter)
+Atom package to display linter markers on minimap.
+
+![minimap-linter](https://raw.githubusercontent.com/nesukun/atom-minimap-linter/master/minimap-linter.gif)
+
+#### [tool-bar](#tool-bar)
+> 可以客製化 tool-bar，我是自己參考其他的 plugin 做出自己的 toolbar
+> 下面是基於 tool-bar 開發的預製 toolbar plugin
+
+##### [atom-toolbar-almighty](https://atom.io/packages/tool-bar-almighty)
+![screenshot](https://rawgit.com/varemenos/atom-toolbar-almighty/master/screenshot.png)
+
+##### [flex-toolbar](https://atom.io/packages/flex-tool-bar)
+
+##### [tool-bar-besser](https://atom.io/packages/flex-tool-bar)
+![screenshot](https://cdn.rawgit.com/besser/atom-toolbar-besser/a988ed6/screenshot.png "tool-bar-besser")
