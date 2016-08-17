@@ -24,6 +24,12 @@
     - [ex-mode](#ex-mode)
     - [expose](#expose)
     - [file-icons](#file-icons)
+    - [fold-functions](#fold-functions)
+    - [git-control](#git-control)
+    - [gitignore-snippets](#gitignore-snippets)
+    - [imdone-atom](#imdone-atom)
+    - [merge-conflicts](#merge-conflicts)
+    - [minimap](#minimap)
     - [tool-bar](#tool-bar)
 
 ## Syntax
@@ -32,7 +38,6 @@
 - [atom-json-color](https://atom.io/packages/atom-json-color)
 - [language-babel](https://atom.io/packages/language-babel)
 - [language-blade](https://atom.io/packages/language-blade)
-- 
 
 
 #### [atom-json-color](https://atom.io/packages/atom-json-color)
@@ -174,7 +179,7 @@ Folds functions within your code. Currently comes with a toggle, fold, and unfol
 
 Heavily inspired/influnced by [Fold Comments](https://atom.io/packages/fold-comments).
 
-#### [atom-git-control](https://atom.io/packages/git-control)
+#### [git-control](https://atom.io/packages/git-control)
 Provides a GUI interface to manage all commonly-used git commands.
 
 This is a first-release, while tested as part of creating this package, it has not been extensively used on much larger projects. In short: there are possibly still some issues remaining. At the same time, wanted to get the package out there and used.
@@ -209,6 +214,7 @@ A preview of the full source code.
 <small>In the screenshot above the minimap-git-diff and minimap-highlight-selected plugins are activated.</small>
 
 > 以下是 minimap 的 plugins
+
 ##### [minimap-autohide](https://atom.io/packages/minimap-autohide)
 This package automatically hides the minimap until you need it.
 
