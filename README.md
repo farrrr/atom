@@ -18,6 +18,9 @@
     - [autoclose-html](#autoclose-html)
     - [cht-menu](#cht-menu)
     - [color-picker](#color-picker)
+    - [docblockr](#docblockr)
+    - [editorconfig](#editorconfig)
+    - [Emmet](#emmet)
 
 ## Syntax
 
@@ -116,9 +119,13 @@ Keep your Atom packages up to date.
 #### [color-picker](https://atom.io/packages/color-picker)
 ![Color Picker in action](https://github.com/thomaslindstrom/color-picker/raw/master/preview.gif)
 
+#### [docblockr](https://atom.io/packages/docblockr)
+> 幫你產生 doc block 很方便的工具
 
+#### [editorconfig](https://atom.io/packages/editorconfig)
+[EditorConfig](http://editorconfig.org) helps developers maintain consistent coding styles between different editors
 
+![](https://f.cloud.github.com/assets/170270/2327994/dfe40cb4-a3f6-11e3-862f-894999973373.png)
 
-
-
-
+#### [Emmet](https://atom.io/packages/emmet)
+[Emmet](http://emmet.io) support for [Atom](http://atom.io).
