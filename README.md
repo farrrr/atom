@@ -9,8 +9,27 @@
 - [Uncategorized](#uncategorized)
   - [atom-beautify](#atom-beautify)
   - [atom-import-sort](#atom-import-sort)
+  - [atom-update-packages](#atom-update-packages)
 
 ## Syntax
+
+- [atom-jinja2](https://atom.io/packages/atom-jinja2)
+- [atom-json-color](https://atom.io/packages/atom-json-color)
+
+
+#### [atom-json-color](https://atom.io/packages/atom-json-color)
+> 必須說，在 atom 裡面編輯 json 真的是很折磨人的事情，因為他的 color scheme 真的有等於沒有，這個解救了我 XD
+
+Color a JSON in Atom Editor with a color per level
+(If you are using a light theme, you can go to the package setting and check "LightTheme" then restart Atom or Ctrl-Alt-R to reload the window.)
+
+With the plugin :)
+
+![atom-json-color-with](https://cloud.githubusercontent.com/assets/8104134/13286515/3763bc2a-db02-11e5-8f24-060648002bd6.png)
+
+Without the plugin :(
+
+![atom-json-color-without](https://cloud.githubusercontent.com/assets/8104134/13286516/37671a78-db02-11e5-9c0a-6e0a96130d14.png)
 
 ## Lint
 
@@ -35,4 +54,9 @@ Sort ES6 imports. Manually – or automatically when you save your Javascript fi
 
 This package does **not** sort `require` calls. Only ES6-style imports are supported as of now. Support for `require` may be added later, but it's generally harder to do this compared to imports.
 
+#### [atom-update-packages](#atom-update-packages)
+> 自動幫你升級 packages 不用每次 apm update 或者到設定去升級
 
+Keep your Atom packages up to date.
+
+![Screenshot](https://f.cloud.github.com/assets/83656/2521579/c30d4b2a-b4ac-11e3-898a-5c763e9a1c5a.png)
