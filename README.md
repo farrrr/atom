@@ -6,12 +6,18 @@
 - [Syntax](#syntax)
 - [Lint](#lint)
 - [Themes](#themes)
+- [AutoComplete](#autocomplete)
+    - [autocomplete-modules](#autocomplete-modules)
+    - [autocomplete-paths](#autocomplete-paths)
+    - [autocomplete-php](#autocomplete-php)
+    - [autocomplete-sass](#autocomplete-sass)
 - [Uncategorized](#uncategorized)
     - [atom-beautify](#atom-beautify)
     - [atom-import-sort](#atom-import-sort)
     - [atom-update-packages](#atom-update-packages)
     - [autoclose-html](#autoclose-html)
-    - [autocomplete-modules](#autocomplete-modules)
+    - [cht-menu](#cht-menu)
+    - [color-picker](#color-picker)
 
 ## Syntax
 
@@ -36,6 +42,43 @@ Without the plugin :(
 ## Lint
 
 ## Themes
+
+## AutoComplete
+#### [autocomplete-modules](https://atom.io/packages/autocomplete-modules)
+> 也會讀取你的 webpack 設定，很方便喔。
+
+Autocomplete for require/import statements.
+
+![Preview](https://cloud.githubusercontent.com/assets/3505878/7442538/9c1892cc-f11e-11e4-8070-3fa8b79beefc.gif)
+
+#### [autocomplete-paths](https://atom.io/packages/autocomplete-paths)
+> 自動補完路徑
+
+Adds path autocompletion to autocomplete+
+
+![autocomplete-paths](http://s1.directupload.net/images/140411/p5kvife6.gif)
+
+#### [autocomplete-php](https://atom.io/packages/autocomplete-php)
+An Atom PHP autocompleter for `autocomplete-plus`
+
+**Now it is mandatory to have PHP in the environment PATH**
+
+Beta version.
+
+![Demo](https://raw.github.com/Azakur4/autocomplete-php/master/assets/img/demo.gif)
+
+#### [autocomplete-sass](https://atom.io/packages/autocomplete-sass)
+CSS property name and value autocompletions for SASS in Atom. Install
+[autocomplete-plus](https://github.com/atom/autocomplete-plus) before
+installing this package.
+
+This is powered by the list of CSS property and values [here](https://github.com/adobe/brackets/blob/master/src/extensions/default/CSSCodeHints/CSSProperties.json)
+
+![autocomplete-sass](http://i.imgur.com/1vB8Bdu.gif)
+
+You can update the prebuilt list of property names and values by running
+the `update.coffee` file at the root of the repository and then checking in
+the changed `properties.json` file.
 
 ## Uncategorized
 
@@ -66,12 +109,16 @@ Keep your Atom packages up to date.
 #### [autoclose-html](#autoclose-html)
 > 自動關閉 html tag
 
-#### [autocomplete-modules](https://atom.io/packages/autocomplete-modules)
-> 會自動補完 packages，也會讀取你的 webpack 設定，很方便。
+#### [cht-menu](https://atom.io/packages/cht-menu)
+> 對於介面感覺看英文有痛苦的，可以裝。
+![](https://raw.githubusercontent.com/Sheng-Bo/atom-cht-menu/master/screenshot/02.jpg)
 
-Autocomplete for require/import statements.
+#### [color-picker](https://atom.io/packages/color-picker)
+![Color Picker in action](https://github.com/thomaslindstrom/color-picker/raw/master/preview.gif)
 
-![Preview](https://cloud.githubusercontent.com/assets/3505878/7442538/9c1892cc-f11e-11e4-8070-3fa8b79beefc.gif)
+
+
+
 
 
 
