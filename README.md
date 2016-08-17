@@ -21,6 +21,9 @@
     - [docblockr](#docblockr)
     - [editorconfig](#editorconfig)
     - [Emmet](#emmet)
+    - [ex-mode](#ex-mode)
+    - [expose](#expose)
+    - [file-icons](#file-icons)
 
 ## Syntax
 
@@ -129,3 +132,29 @@ Keep your Atom packages up to date.
 
 #### [Emmet](https://atom.io/packages/emmet)
 [Emmet](http://emmet.io) support for [Atom](http://atom.io).
+
+#### [ex-mode](https://atom.io/packages/ex-mode)
+> Atom 的 vim-mode 的增強版
+
+#### [expose](https://atom.io/packages/expose)
+> 將你所有的 Tab 類似 OSX 的 Exposé 一樣展開
+
+Quick tab overview of open files. Similar to Mac OSX Exposé / Mission Control, Firefox Tab Group, Safari and Chrome Tab Overview, etc.
+
+* Shows active tab, panes and previews.
+* The text editor preview is taken from [Minimap](https://github.com/atom-minimap/minimap) if present, else a suitable file icon is used.
+* Shows file icons in tabs if the [file-icon package](https://github.com/DanBrooker/file-icons) is installed.
+
+![expose-package](https://raw.githubusercontent.com/mrodalgaard/atom-expose/master/screenshots/preview.png)
+
+#### [file-icons](https://atom.io/packages/file-icons)
+> 依照檔案的種類，給予精美的 icon，必裝
+
+Adds file specific icons to atom for improved visual grepping. Works with Tree View and Fuzzy Finder and Tabs.
+
+![Screenshot](https://raw.githubusercontent.com/DanBrooker/file-icons/master/preview.png)
+
+A number of icons and colours are provided by default for a range of common file types.
+If you have file that you would like custom icons for you can easily add this yourself.
+
+Icons are now specified via CSS (Less) only.
