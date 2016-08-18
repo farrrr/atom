@@ -31,6 +31,11 @@
     - [imdone-atom](#imdone-atom)
     - [merge-conflicts](#merge-conflicts)
     - [minimap](#minimap)
+    - [package-sync](#package-sync)
+    - [php-integrator-base](#php-integrator-base)
+    - [pigments](#pigments)
+    - [sync-settings](#sync-settings)
+    - [vim-mode](#vim-mode)
     - [tool-bar](#tool-bar)
 
 ## Syntax
@@ -295,7 +300,7 @@ A package to display colors in project and files:
 
 Provides Vim modal control for Atom, blending the best of Vim and Atom
 
-#### [tool-bar](#tool-bar)
+#### [tool-bar](https://atom.io/packages/tool-bar)
 
 > 可以客製化 tool-bar，我是自己參考其他的 plugin 做出自己的 toolbar
 > 下面是基於 tool-bar 開發的預製 toolbar plugin
