@@ -68,6 +68,32 @@ Without the plugin :(
 
 ## Themes
 
+#### [atom-material-ui](https://atom.io/themes/atom-material-ui)
+
+##### With [Atom Material Syntax](https://atom.io/packages/atom-material-syntax)
+
+```shell
+apm install atom-material-syntax
+```
+
+![](http://i.imgur.com/ExPYmJY.png)
+
+##### With [Light syntax](https://atom.io/packages/atom-material-syntax-light) theme variant
+
+```shell
+apm install atom-material-syntax-light
+```
+
+![](http://i.imgur.com/q1o78sX.png)
+
+##### With [Dark syntax](https://atom.io/packages/atom-material-syntax-dark) theme variant
+
+```shell
+apm install atom-material-syntax-dark
+```
+
+![](http://i.imgur.com/orhIvwS.png)
+
 ## AutoComplete
 
 #### [autocomplete-modules](https://atom.io/packages/autocomplete-modules)
